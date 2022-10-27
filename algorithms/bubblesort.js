@@ -1,20 +1,6 @@
 let delay=0
 
-function swap(heightsArray,i,j){
-let temp = heightsArray[i]
-heightsArray[i]=heightsArray[j]
-heightsArray[j]=temp
-}
 
-
-function bar_update(bar,height,color){
-
-    window.setTimeout(()=>{
-        bar.style.height=`${height}px`
-        bar.style.backgroundColor=color
-    },delay+=1)
-
-}
 
 
 
