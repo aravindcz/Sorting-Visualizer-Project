@@ -1,5 +1,3 @@
-let delay=0
-
 
 
 
