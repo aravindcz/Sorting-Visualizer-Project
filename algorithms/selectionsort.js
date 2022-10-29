@@ -11,8 +11,8 @@ function selsort(barArray,heightsArray){
             bar_update(barArray[smallestHeightIndex],smallestHeight,"blue")
             bar_update(barArray[height2],heightsArray[height2],"blue")
 
-            bar_update(barArray[smallestHeightIndex],smallestHeight,"yellow")
-            bar_update(barArray[height2],heightsArray[height2],"yellow")
+            bar_update(barArray[smallestHeightIndex],smallestHeight,"rgb(223, 58, 8)")
+            bar_update(barArray[height2],heightsArray[height2],"rgb(223, 58, 8)")
 
 
             if(heightsArray[height2]<smallestHeight){
@@ -29,8 +29,8 @@ function selsort(barArray,heightsArray){
         bar_update(barArray[height1],smallestHeight,"red")
         bar_update(barArray[smallestHeightIndex],height1,"red")
 
-        bar_update(barArray[height1],smallestHeight,"yellow")
-        bar_update(barArray[smallestHeightIndex],height1,"yellow")
+        bar_update(barArray[height1],smallestHeight,"rgb(223, 58, 8)")
+        bar_update(barArray[smallestHeightIndex],height1,"rgb(223, 58, 8)")
 
         bar_update(barArray[height1],smallestHeight,"green")
 

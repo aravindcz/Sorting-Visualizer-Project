@@ -18,8 +18,8 @@ function inssort(barArray,heightsArray){
                 bar_update(barArray[currentHeightIndex],heightsArray[currentHeightIndex],"red")
                 
 
-            bar_update(barArray[index2],heightsArray[index2],"yellow")
-            bar_update(barArray[currentHeightIndex],heightsArray[currentHeightIndex],"yellow")
+            bar_update(barArray[index2],heightsArray[index2],"rgb(223, 58, 8)")
+            bar_update(barArray[currentHeightIndex],heightsArray[currentHeightIndex],"rgb(223, 58, 8)")
 
             currentHeightIndex=index2
             currentHeight=heightsArray[index2]
@@ -32,7 +32,7 @@ function inssort(barArray,heightsArray){
             index2--
         }
 
-        bar_update(barArray[currentHeightIndex],heightsArray[currentHeightIndex],"yellow")
+        bar_update(barArray[currentHeightIndex],heightsArray[currentHeightIndex],"rgb(223, 58, 8)")
 
     }
 

@@ -9,11 +9,11 @@ img{
 }
 
 body{
-    background-color: rgb(66, 67, 67);
+    background-color: #110f41;
 }
 
 h1{
-    color: white;
+    color: rgb(33, 250, 94);
     padding-left:40%;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -44,7 +44,7 @@ h1{
 .bar{
     width: 5px;
     margin: 5px 2px;
-    background-color: yellow;
+    background-color: rgb(223, 58, 8);
 }
 
 #slider{
@@ -56,9 +56,48 @@ h1{
     justify-content: center;
     border: 2px dotted rgb(83, 200, 153);
     padding: 5px;
-    color: rgba(230, 73, 20, 0.832);
+    color: rgba(0, 253, 236, 0.832);
    
 }
+
+label{
+    color:#fbee00;
+}
+
+
+#gen{
+    font-weight: bold;
+    color:  rgba(255, 255, 0, 0.752);
+    background-color: none;
+    border: #00defb solid 2px ;
+    border-radius: 10rem;
+
+}
+#gen:hover{
+    transition: 0.75s;
+    color:  #ffffff;
+    background-color: #ff8928;
+
+}
+
+#bubsort,#selsort,#inssort,#mersort,#quisort{
+    font-weight: bold;
+    color:  rgba(0, 255, 191, 0.752);
+    background-color: none;
+    border: #b500e2 solid 2px ;
+    border-radius: 10rem;
+
+}
+
+#bubsort:hover,#selsort:hover,#inssort:hover,#mersort:hover,#quisort:hover{
+    transition: 0.75s;
+    color:  #161748;
+    background-color: #f95d9b;
+
+}
+
+
+
 
 input[type="range"]{
     -webkit-appearance: none;
@@ -73,7 +112,7 @@ input[type="range"]:focus{
 }
 
 input[type="range"]::-webkit-slider-runnable-track{
-    background-color: #053a5f;
+    background-color: #3b4d61;
     border-radius: 0.5rem;
     height: 0.5rem;  
 }
@@ -82,10 +121,11 @@ input[type="range"]::-webkit-slider-runnable-track{
 input[type="range"]::-webkit-slider-thumb{
     -webkit-appearance: none;
     appearance: none;
-    margin-top: -12px;
+    margin-top: -8px;
+    border-radius: 10rem;
 
-    background-color: #5cd5eb;
-    height: 2rem;
+    background-color: #ff16c5;
+    height: 1.5rem;
     width: 1rem;
 }
 

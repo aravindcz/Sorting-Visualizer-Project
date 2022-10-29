@@ -40,8 +40,8 @@ function partition(bars,heights,start,end){
             swap(heights,p1,p2)
     bar_update(bars[p1],heights[p1],"red")
     bar_update(bars[p2],heights[p2],"red")
-    bar_update(bars[p1],heights[p1],"yellow")
-    bar_update(bars[p2],heights[p2],"yellow")
+    bar_update(bars[p1],heights[p1],"rgb(223, 58, 8)")
+    bar_update(bars[p2],heights[p2],"rgb(223, 58, 8)")
             p1++
             p2--
         }
@@ -54,8 +54,8 @@ function partition(bars,heights,start,end){
     bar_update(bars[start],heights[start],"blue")
     bar_update(bars[p2],heights[p2],"blue")
 
-    bar_update(bars[start],heights[start],"yellow")
-    bar_update(bars[p2],heights[p2],"yellow")
+    bar_update(bars[start],heights[start],"rgb(223, 58, 8)")
+    bar_update(bars[p2],heights[p2],"rgb(223, 58, 8)")
 
    
 

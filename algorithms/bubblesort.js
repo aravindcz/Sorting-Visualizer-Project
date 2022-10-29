@@ -29,8 +29,8 @@ for(let i=0;i<n-1;i++){
         else
         bar_update(b2,heightsArray[j+1],"red")
         
-        bar_update(b1,heightsArray[j],"yellow")
-        bar_update(b2,heightsArray[j+1],"yellow")
+        bar_update(b1,heightsArray[j],"rgb(223, 58, 8)")
+        bar_update(b2,heightsArray[j+1],"rgb(223, 58, 8)")
 
     }
 
