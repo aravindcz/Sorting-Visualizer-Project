@@ -117,6 +117,7 @@ let selectionSortButton = document.getElementById("selsort")
 selectionSortButton.addEventListener('click',(event)=>{
     event.stopPropagation()
     event.preventDefault()
+    disable()
     timer=0
     selsort(barArray,arr)
 })
@@ -127,6 +128,7 @@ let insertionSortButton = document.getElementById("inssort")
 insertionSortButton.addEventListener('click',(event)=>{
     event.stopPropagation()
     event.preventDefault()
+    disable()
     timer=0
     inssort(barArray,arr)
 })
@@ -135,6 +137,7 @@ let mergeSortButton = document.getElementById("mersort")
 mergeSortButton.addEventListener('click',(event)=>{
     event.stopPropagation()
     event.preventDefault()
+    disable()
     timer=0
     mersort(barArray,arr)
 })
@@ -143,6 +146,7 @@ let quickSortButton = document.getElementById("quisort")
 quickSortButton.addEventListener('click',(event)=>{
     event.stopPropagation()
     event.preventDefault()
+    disable()
     timer=0
     quisort(barArray,arr)
 })
