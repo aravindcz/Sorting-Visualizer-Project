@@ -35,11 +35,11 @@ function partition(bars,heights,start,end){
         p2--
 
         if(p1<=p2){
-    bar_update(bars[p1],heights[p1],"red")
-    bar_update(bars[p2],heights[p2],"red")
+    bar_update(bars[p1],heights[p1],"#E936A7")
+    bar_update(bars[p2],heights[p2],"#E936A7")
             swap(heights,p1,p2)
-    bar_update(bars[p1],heights[p1],"red")
-    bar_update(bars[p2],heights[p2],"red")
+    bar_update(bars[p1],heights[p1],"#E936A7")
+    bar_update(bars[p2],heights[p2],"#E936A7")
     bar_update(bars[p1],heights[p1],"rgb(223, 58, 8)")
     bar_update(bars[p2],heights[p2],"rgb(223, 58, 8)")
             p1++

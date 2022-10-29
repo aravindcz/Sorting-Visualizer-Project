@@ -33,8 +33,8 @@ function merge(left,right,bars){
 
     while((p1<leftsize)&&(p2<rightsize)){
         
-        bar_update(bars[p1],left[p1],"red")
-        bar_update(bars[p1+left.length],right[p1],"red")
+        bar_update(bars[p1],left[p1],"#E936A7")
+        bar_update(bars[p1+left.length],right[p1],"#E936A7")
 
         bar_update(bars[p1],left[p1],"rgb(223, 58, 8)")
         bar_update(bars[p1+left.length],right[p1],"rgb(223, 58, 8)")
@@ -53,14 +53,14 @@ function merge(left,right,bars){
     }
 
     while(p1<leftsize){
-        bar_update(bars[p1],left[p1],"red")
+        bar_update(bars[p1],left[p1],"#E936A7")
         bar_update(bars[p1],left[p1],"rgb(223, 58, 8)")
         temp.push(left[p1])
         p1++
     }
 
     while((p2<rightsize)){
-        bar_update(bars[p1+left.length],right[p1],"red")
+        bar_update(bars[p1+left.length],right[p1],"#E936A7")
         bar_update(bars[p1+left.length],right[p1],"rgb(223, 58, 8)")
         temp.push(right[p2])
         p2++

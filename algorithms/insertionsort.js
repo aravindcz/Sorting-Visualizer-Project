@@ -14,8 +14,8 @@ function inssort(barArray,heightsArray){
             if(heightsArray[currentHeightIndex]<heightsArray[index2]){
                 swap(heightsArray,index2,currentHeightIndex)
                 
-                bar_update(barArray[index2],heightsArray[index2],"red")
-                bar_update(barArray[currentHeightIndex],heightsArray[currentHeightIndex],"red")
+                bar_update(barArray[index2],heightsArray[index2],"blue")
+                bar_update(barArray[currentHeightIndex],heightsArray[currentHeightIndex],"blue")
                 
 
             bar_update(barArray[index2],heightsArray[index2],"rgb(223, 58, 8)")
